@@ -1,5 +1,4 @@
 /* 	
-
 Template 2102 Constructive
 
 http://www.tooplate.com/view/2102-constructive
@@ -7,10 +6,10 @@ http://www.tooplate.com/view/2102-constructive
 */
 
 body {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Mono', Helvetica, Arial, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-    color: white;
+    color: rgb(81, 255, 0);
 	overflow-x: hidden;
     min-height: 100vh;
     height: 100%;
@@ -18,10 +17,10 @@ body {
     background: #222222;
 }
 
-#preload-01 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
-#preload-02 { background: url(../img/constructive_bg_02.jpg) no-repeat -9999px -9999px; }
-#preload-03 { background: url(../img/constructive_bg_03.jpg) no-repeat -9999px -9999px; }
-#preload-04 { background: url(../img/constructive_bg_04.jpg) no-repeat -9999px -9999px; }
+#preload-01 { background: url(../img/BG/print1.png) no-repeat -9999px -9999px; }
+#preload-02 { background: url(../img/BG/print1.png) no-repeat -9999px -9999px; }
+#preload-03 { background: url(../img/BG/print1.png) no-repeat -9999px -9999px; }
+#preload-04 { background: url(../img/BG/constructive_bg_04.jpg) no-repeat -9999px -9999px; }
 
 ul { margin: 0; padding: 0; }
 
@@ -32,7 +31,7 @@ a:focus {
 	outline: none;
 }
 
-a {	color: #FFF;  }
+a {	color: rgb(81, 255, 0);  }
 
 a:hover { color: #FF0; }
 
@@ -46,18 +45,18 @@ p {
 p:last-child { margin-bottom: 0; }
 
 .tm-bg-transparent-black {
-    background-color: rgba(0,0,0,0.25);    
+    background-color: rgba(0,0,0,0);    
     padding: 30px;
 }
 
 .tm-contact-box-pad { padding: 60px 55px; }
-.tm-border-white { border: 1px solid white; }
+.tm-border-white { border: 1px solid rgb(81, 255, 0); }
 .media { align-items: center; }
 
 .tm-icon-circled {
     font-size: 3rem;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid rgb(81, 255, 0);
     padding: 8px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -110,8 +109,8 @@ p:last-child { margin-bottom: 0; }
     padding: 60px 50px;
     cursor: default;
     z-index: 100;
-    background: rgba(0,0,0,0.5);
-    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(81, 255, 0);
     z-index: 1000;
 }
 
@@ -132,8 +131,8 @@ p:last-child { margin-bottom: 0; }
 .tm-nav-fa-icon {
     width: 55px;
     height: 55px;
-    border-radius: 50%;
-    border: 1px solid white;
+    border-radius: 0%;
+    border: 1px solid rgb(81, 255, 0);
     padding: 8px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -153,7 +152,7 @@ p:last-child { margin-bottom: 0; }
     background-image: url(../img/nav-item.png);
     background-repeat: no-repeat;
     background-position: left bottom;
-    color: white;
+    color: rgb(81, 255, 0);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -169,7 +168,7 @@ p:last-child { margin-bottom: 0; }
 .tm-main-nav a:focus,
 .tm-main-nav a.active {
     background-image: url(../img/nav-item-highlight.png);
-    color: #33ccff;
+    color: rgb(0, 225, 255);
     text-decoration: none;    
 }
 
@@ -189,8 +188,8 @@ p:last-child { margin-bottom: 0; }
     font-size: 1.3rem;
     font-weight: 300;
     background: transparent;
-    border-color: white;
-    color: white;
+    border-color: rgb(81, 255, 0);
+    color: rgb(81, 255, 0);
     cursor: pointer;
 }
 
@@ -231,8 +230,8 @@ p:last-child { margin-bottom: 0; }
 address { font-size: 1rem; }
 .form-control { 
     background: transparent;
-    border-color: white;
-    color: white;
+    border-color: rgb(81, 255, 0);;
+    color: rgb(81, 255, 0);;
     font-weight: 300;
     border-radius: 0;
     padding: 15px;
@@ -240,28 +239,28 @@ address { font-size: 1rem; }
 
 .form-control:focus {
     background: transparent;
-    color: white;
+    color: rgb(81, 255, 0);;
     border-color: #33ccff;
     box-shadow: none;
 }
 
 ::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
+    color: rgb(81, 255, 0) !important;
     opacity: 1.0;
 }
 
 :-moz-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
+    color: rgb(81, 255, 0) !important;
     opacity: 1.0;
 }
 
 ::-moz-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
+    color: rgb(81, 255, 0) !important;
     opacity: 1.0;
 }
 
 :-ms-input-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
+    color: rgb(81, 255, 0) !important;
     opacity: 1.0;
 }
 
@@ -270,7 +269,7 @@ address { font-size: 1rem; }
     bottom: 20px;
     right: 20px;
     margin-left: 20px;
-    color: white;
+    color: rgb(81, 255, 0);
     text-align:right;    
     width:100%;
     z-index: 999;
@@ -284,7 +283,7 @@ address { font-size: 1rem; }
     background-color: rgba(0,0,0,0.5);
 }
 
-footer a { color: white; }
+footer a { color: rgb(81, 255, 0); }
 
 @media (max-width: 1800px) {
   .tm-section { margin-right: auto; }
@@ -455,7 +454,7 @@ footer a { color: white; }
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #e74c3c;
+    border-top-color: rgb(81, 255, 0);
 
     -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
